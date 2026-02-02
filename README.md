@@ -132,28 +132,6 @@ These patterns are consistent with opportunistic pathogens and environmentally a
 
 ---
 
-## Project Structure
-
-```
-elizabethkingia_project/
-├── genomes/
-│   └── *.fna
-├── prokka_<strain>/
-│   └── Prokka outputs
-├── roary_input/
-│   └── *.gff
-├── roary_out/
-│   ├── gene_presence_absence.csv
-│   ├── gene_presence_absence.Rtab
-│   ├── core_gene_alignment.aln
-│   └── summary_statistics.txt
-├── notebooks/
-│   └── PanGenome_PCA.ipynb
-├── master_features.csv
-└── README.md
-```
-
----
 
 ## Reproducibility
 All analyses were performed using command-line tools and Python notebooks. Environment-specific issues (Perl and Conda dependencies) were resolved manually, reflecting real-world genomics pipeline development.
